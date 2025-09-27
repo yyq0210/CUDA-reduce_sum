@@ -25,7 +25,8 @@ T reduce_sum_cpu(const T *h_in, size_t n) {
     return sum;
 }
 int main() {
-    size_t n = 1000000; // Size of the array
+    // size_t n = 1000000; // Size of the array
+    size_t n = 100000000;
     float *d_in, *d_out;
     float *h_in = (float *)malloc(n * sizeof(float));
     float h_out;

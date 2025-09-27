@@ -10,9 +10,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
-  "CMakeFiles/main.dir/main_generated_reduce_sum_v7.cu.o.cmake.pre-gen"
-  "CMakeFiles/main.dir/main_generated_reduce_sum_v7.cu.o.depend"
-  "CMakeLists.txt"
+  "CMakeFiles/main0.dir/main0_generated_reduce_sum_v0.cu.o.cmake.pre-gen"
+  "CMakeFiles/main0.dir/main0_generated_reduce_sum_v0.cu.o.depend"
+  "CMakeFiles/main1.dir/main1_generated_reduce_sum_v1.cu.o.cmake.pre-gen"
+  "CMakeFiles/main1.dir/main1_generated_reduce_sum_v1.cu.o.depend"
+  "/mnt/d/hpc-study/Reduce_sum/CMakeLists.txt"
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
@@ -51,12 +53,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/main.dir/main_generated_reduce_sum_v7.cu.o.cmake.pre-gen"
-  "CMakeFiles/main.dir/main_generated_reduce_sum_v7.cu.o.cmake"
+  "CMakeFiles/main0.dir/main0_generated_reduce_sum_v0.cu.o.cmake.pre-gen"
+  "CMakeFiles/main1.dir/main1_generated_reduce_sum_v1.cu.o.cmake.pre-gen"
+  "CMakeFiles/main0.dir/main0_generated_reduce_sum_v0.cu.o.cmake"
+  "CMakeFiles/main1.dir/main1_generated_reduce_sum_v1.cu.o.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/main0.dir/DependInfo.cmake"
+  "CMakeFiles/main1.dir/DependInfo.cmake"
   )

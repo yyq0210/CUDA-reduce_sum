@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 CMakeFiles/main1.dir/main1_generated_reduce_sum_v1.cu.o -o main1  /usr/local/cuda/lib64/libcudart_static.a -ldl /usr/lib/x86_64-linux-gnu/librt.a /usr/local/cuda/lib64/libcudart_static.a -ldl /usr/lib/x86_64-linux-gnu/librt.a 

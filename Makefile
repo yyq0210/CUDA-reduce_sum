@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /mnt/d/hpc-study/Reduce_sum
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/hpc-study/Reduce_sum
+CMAKE_BINARY_DIR = /mnt/d/hpc-study/Reduce_Sum
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/hpc-study/Reduce_sum/CMakeFiles /mnt/d/hpc-study/Reduce_sum//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/hpc-study/Reduce_Sum/CMakeFiles /mnt/d/hpc-study/Reduce_Sum//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/hpc-study/Reduce_sum/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/hpc-study/Reduce_Sum/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,17 +117,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named main0
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+main0: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main0
+.PHONY : main0
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+main0/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main0.dir/build.make CMakeFiles/main0.dir/build
+.PHONY : main0/fast
+
+#=============================================================================
+# Target rules for targets named main1
+
+# Build rule for target.
+main1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main1
+.PHONY : main1
+
+# fast build rule for target.
+main1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/build
+.PHONY : main1/fast
 
 # Help Target
 help:
@@ -137,7 +150,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
+	@echo "... main0"
+	@echo "... main1"
 .PHONY : help
 
 

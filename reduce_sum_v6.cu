@@ -40,6 +40,7 @@ __global__ void reduce_sum(const T *d_in, T *d_out, size_t n) {
     if (tid < WARP_SIZE) {
         T block_sum = (tid < (blockDim.x + 31) / WARP_SIZE) ? shared_data[tid] : T(0);
         block_sum = warp_reduce(block_sum);
+        printf("%f\n", block_sum); 
         if (tid == 0) {
             atomicAdd(d_out, block_sum);
         }
@@ -56,7 +57,7 @@ T reduce_sum_cpu(const T *h_in, size_t n) {
 }
 
 int main() {
-    size_t n = 1000000; // Size of the array
+    size_t n = 10000; // Size of the array
     float *d_in, *d_out;
     float *h_in = (float *)malloc(n * sizeof(float));
     float h_out;

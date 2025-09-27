@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/main_generated_reduce_sum_v7.cu.o"
+  "CMakeFiles/main.dir/main_generated_reduce_sum_v1.cu.o"
   "main"
   "main.pdb"
 )

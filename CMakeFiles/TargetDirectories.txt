@@ -1,3 +1,4 @@
-/mnt/d/hpc-study/Reduce_sum/CMakeFiles/main.dir
-/mnt/d/hpc-study/Reduce_sum/CMakeFiles/edit_cache.dir
-/mnt/d/hpc-study/Reduce_sum/CMakeFiles/rebuild_cache.dir
+/mnt/d/hpc-study/Reduce_Sum/CMakeFiles/main0.dir
+/mnt/d/hpc-study/Reduce_Sum/CMakeFiles/main1.dir
+/mnt/d/hpc-study/Reduce_Sum/CMakeFiles/edit_cache.dir
+/mnt/d/hpc-study/Reduce_Sum/CMakeFiles/rebuild_cache.dir
